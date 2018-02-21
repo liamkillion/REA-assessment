@@ -13,3 +13,6 @@ form needs a submit button
 
 carousel http://kenwheeler.github.io/slick/
 http://idangero.us/swiper/
+
+hide header
+http://jsfiddle.net/mariusc23/s6mLJ/31/
