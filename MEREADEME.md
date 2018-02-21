@@ -16,3 +16,7 @@ http://idangero.us/swiper/
 
 hide header
 http://jsfiddle.net/mariusc23/s6mLJ/31/
+
+slide out animation for Map
+http://jsfiddle.net/qm66x51c/147/
+http://jsfiddle.net/J3FTN/

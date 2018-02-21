@@ -123,13 +123,49 @@
             <div class="one wide column">
             </div>
             <div class="nine wide column">
-              
+              <img src="images/Map.png">
             </div>
             <div class="six wide column">
               <div class="ui basic segment left aligned">
-                <img src="images/photo-3.png" alt="">
-                <h1 class="ui header" style="width:75%;font-style:bold">“EVERYBODY OUGHT TO HAVE A LOWER EAST SIDE IN THEIR LIFE”<h1>
-                <h5 class="ui header" style="font-style:italic">— Irving Berlin</h5>
+                <div class="ui fluid accordion">
+                  <div class="slider"></div>
+                  <div class="title">
+                    <h2 class="ui header" style="font-style:bold">TRANSPORTATION</h2>
+                  </div>
+                  <div class="content">
+                    <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
+                  </div>
+                  <div class="title">
+                    <h2 class="ui header" style="font-style:bold">RESTAURANTS</h2>
+                  </div>
+                  <div class="content">
+                    <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
+                  </div>
+                  <div class="title">
+                    <h2 class="ui header" style="font-style:bold">CAFES</h2>
+                  </div>
+                  <div class="content">
+                    <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
+                  </div>
+                  <div class="title">
+                    <h2 class="ui header" style="font-style:bold">HOTELS</h2>
+                  </div>
+                  <div class="content">
+                    <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
+                  </div>
+                  <div class="title">
+                    <h2 class="ui header" style="font-style:bold">ENTERTAINMENT</h2>
+                  </div>
+                  <div class="content">
+                    <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
+                  </div>
+                  <div class="title">
+                    <h2 class="ui header" style="font-style:bold">CULTURE</h2>
+                  </div>
+                  <div class="content">
+                    <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -159,5 +195,15 @@
   loop: true,
   speed: 600,
 })</script>
+<script language='javascript'>
+$(document).ready(function() {
+  $(".ui.accordion").accordion();
+});
+</script>
+<script language='javascript'>
+$(".title").on("click", function() {
+  $(".slider").toggleClass("clicked");
+});
+</script>
   </body>
 </html>
