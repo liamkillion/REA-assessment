@@ -1,5 +1,5 @@
 notes
-Sticky left nav
+Sticky right nav
 hov on black upper margin to have slide down nav
 sticky left nav slide out w/ grid
 buttons open in new window

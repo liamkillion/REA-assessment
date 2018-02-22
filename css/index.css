@@ -1,3 +1,6 @@
+body {
+}
+
 .swiper-container {
   width: 600px;
   height: 300px;
@@ -18,4 +21,60 @@
   background: transparent;
   border: none;
   border-bottom: 1px solid #000000;
+}
+
+#top-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  height: 10%;
+  width: 90%;
+  border-right: 5px solid black;
+  border-bottom: 3px solid black;
+}
+
+#side-rail {
+}
+
+.nav-up {
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  height: 1%;
+  width: 90%;
+  border-right: 5px solid black;
+  border-bottom: 3px solid black;
+}
+
+.logo-up {
+  visibility: hidden;
+}
+
+.fadein-image {
+  visibility: hidden;
+}
+
+.fadeIn {
+  -webkit-animation: animat_show 0.8s;
+  animation: animat_show 0.8s;
+  visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.map-show {
+  visibility: visible;
+}
+
+.map-hidden {
+  visibility: hidden;
 }
