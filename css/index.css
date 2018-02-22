@@ -13,3 +13,9 @@
 #slider.clicked {
   width: 200px;
 }
+
+.form-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
