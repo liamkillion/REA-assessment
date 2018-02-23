@@ -78,3 +78,7 @@ body {
 .map-hidden {
   visibility: hidden;
 }
+
+tr:hover {
+  background-color: green;
+}
