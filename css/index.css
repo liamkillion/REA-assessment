@@ -1,6 +1,3 @@
-body {
-}
-
 .swiper-container {
   width: 600px;
   height: 300px;
@@ -97,4 +94,8 @@ button.ui.basic.button.black {
 
 i.arrow.down.icon {
   color: black;
+}
+
+div.ui.attached.rail {
+  width: 150px;
 }
