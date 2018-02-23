@@ -1,3 +1,6 @@
+body {
+}
+
 .swiper-container {
   width: 600px;
   height: 300px;
@@ -76,10 +79,6 @@
   visibility: hidden;
 }
 
-tr {
-  line-height: 2.5em;
-}
-
 tr:hover {
   background-color: #e2c188;
 }
@@ -94,8 +93,4 @@ button.ui.basic.button.black {
 
 i.arrow.down.icon {
   color: black;
-}
-
-div.ui.attached.rail {
-  width: 150px;
 }

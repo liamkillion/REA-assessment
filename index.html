@@ -5,9 +5,10 @@
     <title>141 E Houston</title>
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css"
+    <link rel="stylesheet" type="text/css" href="css/index.css">
   </head>
   <body>
+    <p style="hidden" id="top"></p>
     <div class="ui right sidebar inverted vertical menu">
        <a class="item">
          1
@@ -19,40 +20,14 @@
          3
        </a>
      </div>
-<<<<<<< HEAD
-     <div class="ui container">
-       <div class="ui basic segment">
-         <div class="ui top fixed small menu grid nav-down" id="top-bar">
-           <a href="#"><img src="images/logo.png" class="logo-down" id="bar-logo" alt=""></a>
-         </div>
-=======
      <div class="pusher">
-       <div class="ui top fixed small menu grid nav-down" id="top-bar">
+       <div class="ui top fixed small menu grid nav-down" id="top-bar" style="padding-left:75%">
          <a href="#"><img src="images/logo.png" class="logo-down" id="bar-logo" alt=""></a>
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
        </div>
        <div class="ui basic segment" id="side-rail" style="margin-top:5%;border-right:5px solid black;left:0px;width:90%;height:100%">
-         <div class="ui right attached rail">
+         <div class="ui right attached rail" style="padding-left:5%;padding-top:5%;width:5%;height:100%">
            <a href="#" class="hamburger-sidebar" style="position:fixed"><img src="images/Menu-bar.png"></a>
          </div>
-<<<<<<< HEAD
-       </div>
-     </div>
-     <div class="pusher">
-       <div class="ui container">
-         <div class="ui grid">
-           <div class="ui row" style="padding-top:0;border-top:5px solid black; border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="seven wide column" style="border-right:5px solid black">
-               <div class="ui basic segment left aligned">
-                 <h5 class="ui header" style="font-style:italic">An Overview</h5>
-                 <h1 class="ui header" style="width:25%;font-style:bold">FRAMING A NEW VISION<h1>
-                 <h3 class="ui header">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
-                 <br>
-                 <br>
-                 <br>
-                 <a href="#" target="_blank"><button class="ui basic button black">VIEW AVAILABILITIES</button><i class="arrow down icon"></i></a>
-=======
          <div class="ui container">
            <div class="ui grid">
              <div class="ui row" style="padding-top:0;border-top:5px solid black; border-right:5px solid black">
@@ -65,47 +40,15 @@
                    <br>
                    <br>
                    <br>
-                   <button class="ui basic button black">VIEW AVAILABILITIES</button>
+                   <a href="#" target="_blank"><button class="ui basic button black">VIEW AVAILABILITIES</button><i class="arrow down icon"></i></a>
                  </div>
                </div>
                <div class="eight wide column" style="padding-left:0;padding-right:0">
                  <img style="height:100%;width:100%" src="images/Home.png" alt="">
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
                </div>
-             </div>
-             <div class="eight wide column" style="padding-left:0;padding-right:0">
-               <img style="height:100%;width:100%" src="images/Home.png" alt="">
              </div>
            </div>
          </div>
-<<<<<<< HEAD
-       </div>
-       <div class="ui container">
-         <div class="ui grid">
-           <div class="ui row" style="padding-top:10%; border-top:5px solid black; border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="five wide column">
-               <div class="ui basic segment left aligned" style="padding-top:35%;padding-left:5%">
-                 <img style="width:75%" class="fadein-image" src="images/Building-Spec.png" alt="">
-                 <h3 class="ui header">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi.</h3>
-                 <br>
-                 <br>
-                 <br>
-                 <a href="#" target="_blank"><button class="ui basic button black">BUILDING SPECIFICATIONS</button><i class="arrow down icon"></i></a>
-               </div>
-             </div>
-             <div class="two wide column"></div>
-             <div class="eight wide column">
-               <div class="ui basic segment left aligned">
-                 <h5 class="ui header" style="font-style:italic">The Architect</h5>
-                 <h1 class="ui header" style="width:25%;font-style:bold" >IT'S A MATTER OF FORM<h1>
-                 <br>
-                 <br>
-                 <img style="width:100%" class="fadein-image" src="images/video.png" alt="">
-                 <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h3>
-                 <br>
-                 <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h3>
-=======
          <div class="ui container">
            <div class="ui grid">
              <div class="ui row" style="padding-top:10%; border-top:5px solid black; border-right:5px solid black">
@@ -117,7 +60,7 @@
                    <br>
                    <br>
                    <br>
-                   <button class="ui basic button black">BUILDING SPECIFICATIONS</button><i class="arrow down icon"></i>
+                   <a href="#" target="_blank"><button class="ui basic button black">BUILDING SPECIFICATIONS</button><i class="arrow down icon"></i></a>
                  </div>
                </div>
                <div class="two wide column"></div>
@@ -132,65 +75,48 @@
                    <br>
                    <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h3>
                  </div>
-                 <div class="ui basic segment right aligned">
-                   <h5 class="ui header" style="font-style:italic">Go To Top</h5><i class="arrow up icon"></i>
-                 </div>
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
+                <div class="ui basic segment right aligned">
+                  <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
+                </div>
                </div>
-              <div class="ui basic segment right aligned">
-                <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
-              </div>
              </div>
            </div>
          </div>
-       </div>
-       <div class="ui container">
-         <div class="ui grid">
-           <div class="ui row" style="padding-top:10%; border-top:5px solid black; border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="five wide column">
-               <div class="ui basic segment left aligned">
-                 <h5 class="ui header" style="font-style:italic">The Location</h5>
-                 <h1 class="ui header" style="width:25%;font-style:bold" >BEYOND THE EVERYDAY<h1>
-               </div>
-             </div>
-             <div class="two wide column"></div>
-             <div class="eight wide column">
-               <div class="ui basic segment left aligned">
-                 <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
-               </div>
-             </div>
-           </div>
-           <div class="ui row" style="padding-top:10%; border-right:5px solid black">
-             <div class="one wide column">
-             </div>
-             <div class="fourteen wide column">
-               <div class="swiper-container">
-                 <div class="swiper-button-prev"></div>
-                 <div class="swiper-wrapper">
-                   <div class="swiper-slide"><img src="images/Gallery-1.png" alt=""></div>
-                   <div class="swiper-slide"><img src="images/Gallery-1.png" alt=""></div>
-                   <div class="swiper-slide"><img src="images/Gallery-1.png" alt=""></div>
-                 </div>
-                 <div class="swiper-button-next"></div>
-               </div>
-             </div>
-<<<<<<< HEAD
-             <div class="one wide column">
-             </div>
-           </div>
-           <div class="ui row" style="padding-top:10%; border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="five wide column">
-               <br>
-               <br>
-               <br>
-               <br>
-               <br>
-               <div class="ui basic segment left aligned">
-                 <img src="images/photo-2.png" class="fadein-image" alt="">
-=======
+         <div class="ui container">
+           <div class="ui grid">
              <div class="ui row" style="padding-top:10%; border-top:5px solid black; border-right:5px solid black">
+               <div class="one wide column"></div>
+               <div class="five wide column">
+                 <div class="ui basic segment left aligned">
+                   <h5 class="ui header" style="font-style:italic">The Location</h5>
+                   <h1 class="ui header" style="width:25%;font-style:bold" >BEYOND THE EVERYDAY<h1>
+                 </div>
+               </div>
+               <div class="two wide column"></div>
+               <div class="eight wide column">
+                 <div class="ui basic segment left aligned">
+                   <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
+                 </div>
+               </div>
+             </div>
+             <div class="ui row" style="padding-top:10%; border-right:5px solid black">
+               <div class="one wide column">
+               </div>
+               <div class="fourteen wide column">
+                 <div class="swiper-container">
+                   <div class="swiper-button-prev"></div>
+                   <div class="swiper-wrapper">
+                     <div class="swiper-slide"><img src="images/Gallery-1.png" alt=""></div>
+                     <div class="swiper-slide"><img src="images/Gallery-1.png" alt=""></div>
+                     <div class="swiper-slide"><img src="images/Gallery-1.png" alt=""></div>
+                   </div>
+                   <div class="swiper-button-next"></div>
+                 </div>
+               </div>
+               <div class="one wide column">
+               </div>
+             </div>
+             <div class="ui row" style="padding-top:10%; border-right:5px solid black">
                <div class="one wide column"></div>
                <div class="five wide column">
                  <br>
@@ -201,203 +127,157 @@
                  <div class="ui basic segment left aligned">
                    <img src="images/photo-2.png" class="fadein-image" alt="">
                  </div>
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
                </div>
-             </div>
-             <div class="two wide column"></div>
-             <div class="eight wide column">
-               <div class="ui basic segment left aligned">
-                 <img src="images/photo-3.png" class="fadein-image" alt="">
-                 <h1 class="ui header" style="width:75%;font-style:bold">“EVERYBODY OUGHT TO HAVE A LOWER EAST SIDE IN THEIR LIFE”<h1>
-                 <h5 class="ui header" style="font-style:italic">— Irving Berlin</h5>
-               </div>
-             </div>
-           </div>
-           <div class="ui row" style="padding-top:10%; border-right:5px solid black">
-             <div class="one wide column">
-             </div>
-             <div class="nine wide column">
-               <!-- <img src="images/Map.png"> -->
-               <iframe class="transpo map-show" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=transportation%20near%20141%20east%20houston&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-               <!-- <iframe class="resto map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=restaurants%20near%20141%20east%20houston&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-               <iframe class="cafe map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=cafes%20near%20141%20east%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-               <iframe class="hotel map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=hotels%20near%20141%20east%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-               <iframe class="enter map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=entertainment%20near%20141%20e%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-               <iframe class="culture map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=museums%20near%20141%20east%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe> -->
-             </div>
-             <div class="six wide column">
-               <div class="ui basic segment left aligned">
-                 <div class="ui fluid accordion">
-                   <div class="slider"></div>
-                   <div class="title">
-                     <h2 class="ui header" style="font-style:bold">TRANSPORTATION</h2>
-                   </div>
-                   <div class="content">
-                     <p>Lorem ipsum dolor sit amet, consec- tetuer adiping elit, sed diam nonummy nibh euismod.<br>Nearby trainlines include:</p>
-                     <img src="images/Subway.png" alt="">
-                   </div>
-                   <div class="title">
-                     <h2 class="ui header" style="font-style:bold">RESTAURANTS</h2>
-                   </div>
-                   <div class="content">
-                     <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
-                   </div>
-                   <div class="title">
-                     <h2 class="ui header" style="font-style:bold">CAFES</h2>
-                   </div>
-                   <div class="content">
-                     <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
-                   </div>
-                   <div class="title">
-                     <h2 class="ui header" style="font-style:bold">HOTELS</h2>
-                   </div>
-                   <div class="content">
-                     <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
-                   </div>
-                   <div class="title">
-                     <h2 class="ui header" style="font-style:bold">ENTERTAINMENT</h2>
-                   </div>
-                   <div class="content">
-                     <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
-                   </div>
-                   <div class="title">
-                     <h2 class="ui header" style="font-style:bold">CULTURE</h2>
-                   </div>
-                   <div class="content">
-                     <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
-                   </div>
+               <div class="two wide column"></div>
+               <div class="eight wide column">
+                 <div class="ui basic segment left aligned">
+                   <img src="images/photo-3.png" class="fadein-image" alt="">
+                   <h1 class="ui header" style="width:75%;font-style:bold">“EVERYBODY OUGHT TO HAVE A LOWER EAST SIDE IN THEIR LIFE”<h1>
+                   <h5 class="ui header" style="font-style:italic">— Irving Berlin</h5>
                  </div>
                </div>
-<<<<<<< HEAD
-               <div class="ui basic segment right aligned" style="padding-top:50%">
-                 <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
-=======
+             </div>
+             <div class="ui row" style="padding-top:10%; border-right:5px solid black">
+               <div class="one wide column">
+               </div>
                <div class="nine wide column">
                  <!-- <img src="images/Map.png"> -->
-                 <!-- transpo -->
-                 <iframe class="map-show" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=transportation%20near%20141%20east%20houston&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-                 <!-- resto -->
-                 <iframe class="map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=restaurants%20near%20141%20east%20houston&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-                 <!-- cafes -->
-                 <iframe class="map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=cafes%20near%20141%20east%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-                 <!-- hotel -->
-                 <iframe class="map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=hotels%20near%20141%20east%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-                 <!-- entertainment -->
-                 <iframe class="map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=entertainment%20near%20141%20e%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
-                 <!-- culture -->
-                 <iframe class="map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=museums%20near%20141%20east%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
+                 <iframe class="transpo map-show" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=transportation%20near%20141%20east%20houston&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
+                 <!-- <iframe class="resto map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=restaurants%20near%20141%20east%20houston&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
+                 <iframe class="cafe map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=cafes%20near%20141%20east%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
+                 <iframe class="hotel map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=hotels%20near%20141%20east%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
+                 <iframe class="enter map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=entertainment%20near%20141%20e%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe>
+                 <iframe class="culture map-hidden" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=museums%20near%20141%20east%20houston%20street&key=AIzaSyBi23sSA8eQWc5W3zqt1XKEaOQudIv9XWg" allowfullscreen></iframe> -->
                </div>
-             </div>
-           </div>
-         </div>
-       </div>
-       <div class="ui container">
-         <div class="ui grid">
-           <div class="ui row" style="padding-top:0;padding-bottom:0; border-top:5px solid black; border-right:5px solid black">
-             <div class="one wide column">
-             </div>
-             <div class="three wide column">
-               <img src="images/photo-4.png" alt="" style="border: 5px solid black; border-top:0; margin-bottom:0">
-             </div>
-             <div class="twelve wide column" style="padding:10%;padding-bottom:0">
-               <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-               <h1 class="ui header" style="width:25%;font-style:bold">FACTS AND FIGURES<h1>
-               <div class="ui container" style="padding-top:35%">
-                 <div class="ui four column grid">
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+               <div class="six wide column">
+                 <div class="ui basic segment left aligned">
+                   <div class="ui fluid accordion">
+                     <div class="slider"></div>
+                     <div class="title">
+                       <h2 class="ui header" style="font-style:bold">TRANSPORTATION</h2>
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consec- tetuer adiping elit, sed diam nonummy nibh euismod.<br>Nearby trainlines include:</p>
+                       <img src="images/Subway.png" alt="">
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="title">
+                       <h2 class="ui header" style="font-style:bold">RESTAURANTS</h2>
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="content">
+                       <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="title">
+                       <h2 class="ui header" style="font-style:bold">CAFES</h2>
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="content">
+                       <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="title">
+                       <h2 class="ui header" style="font-style:bold">HOTELS</h2>
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="content">
+                       <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
                      </div>
-                 </div>
-               </div>
-             </div>
-           </div>
-           <div class="ui row" style="padding-top:0; margin-top:0; border-right:5px solid black">
-             <div class="one wide column">
-             </div>
-             <div class="three wide column">
-               <img src="images/photo-4-white.png" alt="" style="margin-top:-4px;margin-bottom:-4px;border-left: 5px solid black;border-right:5px solid black">
-             </div>
-             <div class="twelve wide column" style="padding:10%;padding-top:0">
-               <div class="ui container">
-                 <div class="ui four column grid">
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="title">
+                       <h2 class="ui header" style="font-style:bold">ENTERTAINMENT</h2>
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="content">
+                       <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="title">
+                       <h2 class="ui header" style="font-style:bold">CULTURE</h2>
                      </div>
-                     <div class="column">
-                       <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
-                       <h2 class="ui header" style="font-style:bold">12<h2>
+                     <div class="content">
+                       <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
                      </div>
-<<<<<<< HEAD
-=======
                    </div>
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
+                 </div>
+                 <div class="ui basic segment right aligned" style="padding-top:50%">
+                   <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
                  </div>
                </div>
              </div>
            </div>
          </div>
-       </div>
-       <div class="ui container">
-         <div class="ui grid">
-           <div class="ui row" style="padding-top:10%; border-top:5px solid black; border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="five wide column">
-               <div class="ui basic segment left aligned">
-                 <h5 class="ui header" style="font-style:italic">Office Space</h5>
-                 <h1 class="ui header" style="width:55%;font-style:bold">A NEW FRAME OF WORK<h1>
+         <div class="ui container">
+           <div class="ui grid">
+             <div class="ui row" style="padding-top:0;padding-bottom:0; border-top:5px solid black; border-right:5px solid black">
+               <div class="one wide column">
+               </div>
+               <div class="three wide column">
+                 <img src="images/photo-4.png" alt="" style="border: 5px solid black; border-top:0; margin-bottom:0">
+               </div>
+               <div class="twelve wide column" style="padding:10%;padding-bottom:0">
+                 <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                 <h1 class="ui header" style="width:25%;font-style:bold">FACTS AND FIGURES<h1>
+                 <div class="ui container" style="padding-top:35%">
+                   <div class="ui four column grid">
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                   </div>
+                 </div>
                </div>
              </div>
-             <div class="two wide column"></div>
-             <div class="eight wide column">
-               <div class="ui basic segment left aligned">
-                 <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
-                 <a href="#" target="_blank"><button class="ui basic button black">DOWNLOAD FLOOR PLANS</button><i class="arrow down icon"></i></a>
+             <div class="ui row" style="padding-top:0; margin-top:0; border-right:5px solid black">
+               <div class="one wide column">
+               </div>
+               <div class="three wide column">
+                 <img src="images/photo-4-white.png" alt="" style="margin-top:-4px;margin-bottom:-4px;border-left: 5px solid black;border-right:5px solid black">
+               </div>
+               <div class="twelve wide column" style="padding:10%;padding-top:0">
+                 <div class="ui container">
+                   <div class="ui four column grid">
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                       <div class="column">
+                         <h5 class="ui header" style="font-style:italic">Facts and Figures</h5>
+                         <h2 class="ui header" style="font-style:bold">12<h2>
+                       </div>
+                   </div>
+                 </div>
                </div>
              </div>
            </div>
-<<<<<<< HEAD
-           <div class="ui row" style="padding-top:10%; border-right:5px solid black">
-             <div class="one wide column">
-=======
          </div>
          <div class="ui container">
            <div class="ui grid">
@@ -413,68 +293,57 @@
                <div class="eight wide column">
                  <div class="ui basic segment left aligned">
                    <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
-                   <button class="ui basic button black">DOWNLOAD FLOOR PLANS</button>
+                   <a href="#" target="_blank"><button class="ui basic button black">DOWNLOAD FLOOR PLANS</button><i class="arrow down icon"></i></a>
                  </div>
                </div>
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
              </div>
-             <div class="fourteen wide column">
-               <div class="swiper-container">
-                 <div class="swiper-button-prev"></div>
-                 <div class="swiper-wrapper">
-                   <div class="swiper-slide"><img src="images/Gallery-2.png" alt=""></div>
-                   <div class="swiper-slide"><img src="images/Gallery-2.png" alt=""></div>
-                   <div class="swiper-slide"><img src="images/Gallery-2.png" alt=""></div>
+             <div class="ui row" style="padding-top:10%; border-right:5px solid black">
+               <div class="one wide column">
+               </div>
+               <div class="fourteen wide column">
+                 <div class="swiper-container">
+                   <div class="swiper-button-prev"></div>
+                   <div class="swiper-wrapper">
+                     <div class="swiper-slide"><img src="images/Gallery-2.png" alt=""></div>
+                     <div class="swiper-slide"><img src="images/Gallery-2.png" alt=""></div>
+                     <div class="swiper-slide"><img src="images/Gallery-2.png" alt=""></div>
+                   </div>
+                   <div class="swiper-button-next"></div>
                  </div>
-                 <div class="swiper-button-next"></div>
+               </div>
+               <div class="one wide column">
                </div>
              </div>
-             <div class="one wide column">
-             </div>
-           </div>
-           <div class="ui row" style="padding-top:10%; border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="eight wide column">
-               <div class="ui basic segment left aligned">
-                 <img src="images/photo-7.png" class="fadein-image" alt="">
-                 <h2 class="ui header" style="font-style:bold">VIEWS<h2>
-                 <h3 class="ui header">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
-                 <br>
-                 <br>
-                 <img src="images/photo-5.png" class="fadein-image" alt="">
-                 <h2 class="ui header" style="font-style:bold">ROOFTOP DECK<h2>
-                 <h3 class="ui header">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
+             <div class="ui row" style="padding-top:10%; border-right:5px solid black">
+               <div class="one wide column"></div>
+               <div class="eight wide column">
+                 <div class="ui basic segment left aligned">
+                   <img src="images/photo-7.png" class="fadein-image" alt="">
+                   <h2 class="ui header" style="font-style:bold">VIEWS<h2>
+                   <h3 class="ui header">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
+                   <br>
+                   <br>
+                   <img src="images/photo-5.png" class="fadein-image" alt="">
+                   <h2 class="ui header" style="font-style:bold">ROOFTOP DECK<h2>
+                   <h3 class="ui header">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
+                 </div>
+               </div>
+               <div class="one wide column"></div>
+               <div class="five wide middle aligned column">
+                 <div class="ui basic segment left aligned">
+                   <img src="images/photo-6.png" class="fadein-image" alt="">
+                   <h2 class="ui header" style="font-style:bold">HOUSTON ALLEY<h2>
+                   <h3 class="ui header">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
+                 </div>
                </div>
              </div>
-<<<<<<< HEAD
-             <div class="one wide column"></div>
-             <div class="five wide middle aligned column">
-               <div class="ui basic segment left aligned">
-                 <img src="images/photo-6.png" class="fadein-image" alt="">
-                 <h2 class="ui header" style="font-style:bold">HOUSTON ALLEY<h2>
-                 <h3 class="ui header">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
+             <div class="ui row" style="border-right:5px solid black;">
+               <div class="ui basic segment right aligned" style="padding-left:90%">
+                 <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
                </div>
-             </div>
-=======
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
-           </div>
-           <div class="ui row" style="border-right:5px solid black;">
-             <div class="ui basic segment right aligned" style="padding-left:90%">
-               <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
              </div>
            </div>
          </div>
-<<<<<<< HEAD
-       </div>
-       <div class="ui container">
-         <div class="ui grid">
-           <div class="ui row" style="padding-top:10%; border-top:5px solid black; border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="eight wide column">
-               <div class="ui basic segment left aligned">
-                 <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
-                 <a href="#" target="_blank"><button class="ui basic button black sticky">DOWNLOAD FLOOR PLANS</button><i class="arrow down icon"></i></a>
-=======
          <div class="ui container">
            <div class="ui grid">
              <div class="ui row" style="padding-top:10%; border-top:5px solid black; border-right:5px solid black">
@@ -482,7 +351,7 @@
                <div class="eight wide column">
                  <div class="ui basic segment left aligned">
                    <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Wisi enim ad minim veniam, quis nostrud exerci tationi ullamcorper suscipit lobortis nisl ut aliquip ex eat commodo consequat.</h3>
-                   <button class="ui basic button black sticky">DOWNLOAD FLOOR PLANS</button>
+                   <a href="#" target="_blank"><button class="ui basic button black sticky">DOWNLOAD FLOOR PLANS</button><i class="arrow down icon"></i></a>
                  </div>
                </div>
                <div class="two wide column"></div>
@@ -491,183 +360,71 @@
                    <h5 class="ui header" style="font-style:italic">Retail Space</h5>
                    <h1 class="ui header" style="width:45%;font-style:bold" >BRIGHT OUT IN THE OPEN<h1>
                  </div>
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
                </div>
              </div>
-             <div class="two wide column"></div>
-             <div class="five wide column">
-               <div class="ui basic segment left aligned">
-                 <h5 class="ui header" style="font-style:italic">Retail Space</h5>
-                 <h1 class="ui header" style="width:45%;font-style:bold" >BRIGHT OUT IN THE OPEN<h1>
+             <div class="ui row" style="padding-top:10%; border-right:5px solid black">
+               <div class="one wide column">
                </div>
-             </div>
-           </div>
-           <div class="ui row" style="padding-top:10%; border-right:5px solid black">
-             <div class="one wide column">
-             </div>
-             <div class="fourteen wide column">
-               <div class="swiper-container">
-                 <div class="swiper-button-prev"></div>
-                 <div class="swiper-wrapper">
-                   <div class="swiper-slide"><img src="images/Gallery-3.png" alt=""></div>
-                   <div class="swiper-slide"><img src="images/Gallery-3.png" alt=""></div>
-                   <div class="swiper-slide"><img src="images/Gallery-3.png" alt=""></div>
+               <div class="fourteen wide column">
+                 <div class="swiper-container">
+                   <div class="swiper-button-prev"></div>
+                   <div class="swiper-wrapper">
+                     <div class="swiper-slide"><img src="images/Gallery-3.png" alt=""></div>
+                     <div class="swiper-slide"><img src="images/Gallery-3.png" alt=""></div>
+                     <div class="swiper-slide"><img src="images/Gallery-3.png" alt=""></div>
+                   </div>
+                   <div class="swiper-button-next"></div>
                  </div>
-                 <div class="swiper-button-next"></div>
+               </div>
+               <div class="one wide column">
                </div>
              </div>
-             <div class="one wide column">
-             </div>
-           </div>
-           <div class="ui row" style="padding-top:10%; border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="five wide column">
-               <br>
-               <br>
-               <br>
-               <br>
-               <br>
-               <div class="ui basic segment left aligned">
-                 <img src="images/photo-9.png" class="fadein-image" alt="">
-                 <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod.</h3>
+             <div class="ui row" style="padding-top:10%; border-right:5px solid black">
+               <div class="one wide column"></div>
+               <div class="five wide column">
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <div class="ui basic segment left aligned">
+                   <img src="images/photo-9.png" class="fadein-image" alt="">
+                   <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod.</h3>
+                 </div>
+               </div>
+               <div class="two wide column"></div>
+               <div class="eight wide column">
+                 <div class="ui basic segment left aligned">
+                   <img src="images/photo-8.png" class="fadein-image" alt="">
+                   <h1 class="ui header" style="width:75%;font-style:bold">80’ OF FRONTAGE ON HOUSTON<h1>
+                   <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod.</h3>
+                   <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod.Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod.</h3>
+                 </div>
                </div>
              </div>
-<<<<<<< HEAD
-             <div class="two wide column"></div>
-             <div class="eight wide column">
-               <div class="ui basic segment left aligned">
-                 <img src="images/photo-8.png" class="fadein-image" alt="">
-                 <h1 class="ui header" style="width:75%;font-style:bold">80’ OF FRONTAGE ON HOUSTON<h1>
-                 <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod.</h3>
-                 <h3 class="ui header" style="width:75%">Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod.Lorem ipsum dolor sit amet, consectetuer adiping elit, sed diam nonummy nibh euismod.</h3>
+             <div class="ui row" style="border-right:5px solid black;">
+               <div class="ui basic segment right aligned" style="padding-left:90%">
+                 <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
                </div>
-             </div>
-=======
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
-           </div>
-           <div class="ui row" style="border-right:5px solid black;">
-             <div class="ui basic segment right aligned" style="padding-left:90%">
-               <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
              </div>
            </div>
          </div>
-       </div>
-       <div class="ui container">
-         <div class="ui grid">
-           <div class="ui row" style="padding-top:10%; border-top:5px solid black; border-right:5px solid black">
-             <div class="five column wide">
-               <div class="ui basic segment left aligned">
-                 <h5 class="ui header" style="font-style:italic">Available Space</h5>
-                 <h1 class="ui header" style="width:25%;font-style:bold">AVAILABILITIES<h1>
-               </div class="bottom-row">
+         <div class="ui container">
+           <div class="ui grid">
+             <div class="ui row" style="padding-top:10%; border-top:5px solid black; border-right:5px solid black">
+               <div class="five column wide">
+                 <div class="ui basic segment left aligned">
+                   <h5 class="ui header" style="font-style:italic">Available Space</h5>
+                   <h1 class="ui header" style="width:25%;font-style:bold">AVAILABILITIES<h1>
+                 </div class="bottom-row">
+               </div>
              </div>
-<<<<<<< HEAD
-           </div>
-           <div class="ui row" style="border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="eight wide column" style="padding-top:5%; margin-right:-10px;padding-right:0">
-               <div class="ui basic segment left aligned">
-                   <table class="ui single line selectable very basic table" style="height:100%">
-                   <thead>
-                     <tr>
-                       <td>5,000 RSF</td>
-                       <td>OFFICE SPACE</td>
-                       <td></td>
-                       <td>DOWNLOAD PDF</td>
-                       <td></td>
-                       <td>LEVEL 8</td>
-                       <td class="table-bridge"></td>
-                     </tr>
-                     <tr>
-                       <td>5,000 RSF</td>
-                       <td>OFFICE SPACE</td>
-                       <td></td>
-                       <td>DOWNLOAD PDF</td>
-                       <td></td>
-                       <td>LEVEL 7</td>
-                       <td class="table-bridge"></td>
-                     </tr>
-                     <tr>
-                       <td>5,000 RSF</td>
-                       <td>OFFICE SPACE</td>
-                       <td></td>
-                       <td>DOWNLOAD PDF</td>
-                       <td></td>
-                       <td>LEVEL 6</td>
-                       <td class="table-bridge"></td>
-                     </tr>
-                     <tr>
-                       <td>5,000 RSF</td>
-                       <td>OFFICE SPACE</td>
-                       <td></td>
-                       <td>DOWNLOAD PDF</td>
-                       <td> </td>
-                       <td>LEVEL 5</td>
-                       <td class="table-bridge"></td>
-                     </tr>
-                     <tr>
-                       <td>5,000 RSF</td>
-                       <td>OFFICE SPACE</td>
-                       <td></td>
-                       <td>DOWNLOAD PDF</td>
-                       <td></td>
-                       <td>LEVEL 4</td>
-                       <td class="table-bridge"></td>
-                     </tr>
-                     <tr>
-                       <td>5,000 RSF</td>
-                       <td>OFFICE SPACE</td>
-                       <td></td>
-                       <td>DOWNLOAD PDF</td>
-                       <td></td>
-                       <td>LEVEL 3</td>
-                       <td class="table-bridge"></td>
-                     </tr>
-                     <tr>
-                       <td>5,000 RSF</td>
-                       <td>OFFICE SPACE</td>
-                       <td></td>
-                       <td>DOWNLOAD PDF</td>
-                       <td></td>
-                       <td>LEVEL 2</td>
-                       <td class="table-bridge"></td>
-                     </tr>
-                     <tr>
-                       <td>5,000 RSF</td>
-                       <td>OFFICE SPACE</td>
-                       <td></td>
-                       <td>DOWNLOAD PDF</td>
-                       <td></td>
-                       <td>LEVEL 1</td>
-                       <td class="table-bridge"></td>
-                     </tr>
-                     <tr>
-                       <td>5,000 RSF</td>
-                       <td>RETAIL SPACE</td>
-                       <td></td>
-                       <td>DOWNLOAD PDF</td>
-                       <td></td>
-                       <td>GROUND</td>
-                       <td class="table-bridge"></td>
-                     </tr>
-                   </thead>
-                 </table>
-=======
              <div class="ui row" style="border-right:5px solid black">
                <div class="one wide column"></div>
-               <div class="eight wide column" style="padding-top:2%">
+               <div class="eight wide column" style="padding-top:5%; margin-right:-10px;padding-right:0">
                  <div class="ui basic segment left aligned">
                      <table class="ui single line selectable very basic table" style="height:100%">
                      <thead>
-                       <tr><th class="three wide"></th>
-                           <th class="three wide"></th>
-                           <th class="three wide"></th>
-                           <th class="three wide"></th>
-                           <th class="one wide"></th>
-                           <th class="three wide"></th>
-                       </tr>
-                     </thead>
-                     <tbody>
                        <tr>
                          <td>5,000 RSF</td>
                          <td>OFFICE SPACE</td>
@@ -675,6 +432,7 @@
                          <td>DOWNLOAD PDF</td>
                          <td></td>
                          <td>LEVEL 8</td>
+                         <td class="table-bridge"></td>
                        </tr>
                        <tr>
                          <td>5,000 RSF</td>
@@ -683,6 +441,7 @@
                          <td>DOWNLOAD PDF</td>
                          <td></td>
                          <td>LEVEL 7</td>
+                         <td class="table-bridge"></td>
                        </tr>
                        <tr>
                          <td>5,000 RSF</td>
@@ -691,6 +450,7 @@
                          <td>DOWNLOAD PDF</td>
                          <td></td>
                          <td>LEVEL 6</td>
+                         <td class="table-bridge"></td>
                        </tr>
                        <tr>
                          <td>5,000 RSF</td>
@@ -699,6 +459,7 @@
                          <td>DOWNLOAD PDF</td>
                          <td> </td>
                          <td>LEVEL 5</td>
+                         <td class="table-bridge"></td>
                        </tr>
                        <tr>
                          <td>5,000 RSF</td>
@@ -707,6 +468,7 @@
                          <td>DOWNLOAD PDF</td>
                          <td></td>
                          <td>LEVEL 4</td>
+                         <td class="table-bridge"></td>
                        </tr>
                        <tr>
                          <td>5,000 RSF</td>
@@ -715,6 +477,7 @@
                          <td>DOWNLOAD PDF</td>
                          <td></td>
                          <td>LEVEL 3</td>
+                         <td class="table-bridge"></td>
                        </tr>
                        <tr>
                          <td>5,000 RSF</td>
@@ -723,6 +486,7 @@
                          <td>DOWNLOAD PDF</td>
                          <td></td>
                          <td>LEVEL 2</td>
+                         <td class="table-bridge"></td>
                        </tr>
                        <tr>
                          <td>5,000 RSF</td>
@@ -731,6 +495,7 @@
                          <td>DOWNLOAD PDF</td>
                          <td></td>
                          <td>LEVEL 1</td>
+                         <td class="table-bridge"></td>
                        </tr>
                        <tr>
                          <td>5,000 RSF</td>
@@ -739,87 +504,51 @@
                          <td>DOWNLOAD PDF</td>
                          <td></td>
                          <td>GROUND</td>
+                         <td class="table-bridge"></td>
                        </tr>
-                       <tr>
-                         <td></td>
-                         <td></td>
-                         <td></td>
-                         <td></td>
-                         <td></td>
-                         <td></td>
-                       </tr>
-                     </tbody>
+                     </thead>
                    </table>
                  </div>
                </div>
-               <div class="six wide column">
+               <div class="six wide column" style="margin-left:-10px;padding-left:0">
                  <img src="images/Stacking-plan.png" alt="">
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
                </div>
+               <div class="one wide column"></div>
              </div>
-<<<<<<< HEAD
-             <div class="six wide column" style="margin-left:-10px;padding-left:0">
-               <img src="images/Stacking-plan.png" alt="">
-             </div>
-             <div class="one wide column"></div>
-           </div>
-           <div class="ui row" style="padding-top:10%; border-right:5px solid black">
-             <div class="one wide column"></div>
-             <div class="four wide column">
-               <div class="ui basic segment left aligned">
-                 <a href="#" target="_blank"><button class="ui basic button black sticky">ALL FLOOR PLANS</button><i class="arrow down icon"></i></a>
-               </div>
-             </div>
-             <div class="one wide column"></div>
-             <div class="four wide column">
-               <div class="ui basic segment left aligned">
-                 <a href="#" target="_blank"><button class="ui basic button black sticky">ALL TEST FITS</button><i class="arrow down icon"></i></a>
-=======
              <div class="ui row" style="padding-top:10%; border-right:5px solid black">
                <div class="one wide column"></div>
                <div class="four wide column">
                  <div class="ui basic segment left aligned">
-                   <button class="ui basic button black sticky">ALL FLOOR PLANS</button>
+                   <a href="#" target="_blank"><button class="ui basic button black sticky">ALL FLOOR PLANS</button><i class="arrow down icon"></i></a>
                  </div>
                </div>
                <div class="one wide column"></div>
                <div class="four wide column">
                  <div class="ui basic segment left aligned">
-                   <button class="ui basic button black sticky">ALL TEST FITS</button>
+                   <a href="#" target="_blank"><button class="ui basic button black sticky">ALL TEST FITS</button><i class="arrow down icon"></i></a>
                  </div>
                </div>
                <div class="one wide column"></div>
                <div class="four wide column">
                  <div class="ui basic segment left aligned">
-                   <button class="ui basic button black sticky">STACKING PLAN</button>
+                   <a href="#" target="_blank"><button class="ui basic button black sticky">STACKING PLANS</button><i class="arrow down icon"></i></a>
                  </div>
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
+               </div>
+               <div class="one wide column"></div>
+             </div>
+             <div class="ui row" style="border-right:5px solid black;">
+               <div class="ui basic segment right aligned" style="padding-left:90%">
+                 <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
                </div>
              </div>
-<<<<<<< HEAD
-             <div class="one wide column"></div>
-             <div class="four wide column">
-               <div class="ui basic segment left aligned">
-                 <a href="#" target="_blank"><button class="ui basic button black sticky">STACKING PLANS</button><i class="arrow down icon"></i></a>
-               </div>
-             </div>
-             <div class="one wide column"></div>
-           </div>
-           <div class="ui row" style="border-right:5px solid black;">
-             <div class="ui basic segment right aligned" style="padding-left:90%">
-               <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
-             </div>
-=======
->>>>>>> parent of 257ec12... buttons open in new page, roll (almost) to top)
            </div>
          </div>
-       </div>
-       <div class="ui container">
+         <div class="ui container">
            <div class="ui grid">
              <div class="ui row" style="padding-top:0;padding-bottom:0;border-top:5px solid black; border-right:5px solid black; border-bottom:5px solid black">
-               <div class="eight wide column" style="padding-left:0;padding-right:0">
-                 <img style="border-bottom:5px solid black; border-right:5px solid black" src="images/photo-10.png" alt="">
-                 <div class="ui form" style="margin-top:-4px;padding:5%; border-right:5px solid black">
+               <div class="eight wide column" style="border-right:5px solid black;padding-left:0;padding-right:0">
+                 <img style="border-bottom:5px solid black" src="images/photo-10.png" alt="">
+                 <div class="ui form" style="margin-top:-4px;padding:5%;">
                    <div class="fields">
                      <div class="eight wide field">
                        <input type="text" style="border-radius:0%; background: transparent; border: none; border-bottom: 1px solid #000000;" placeholder="First Name">
@@ -847,10 +576,10 @@
                </div>
                <div class="eight wide column" style="padding-top:2%">
                  <h5 class="ui header" style="font-style:italic">Contact</h5>
-                 <h1 class="ui header" style="width:25%;font-style:bold" >DROP US A LINE<h1>
-                 <div class="ui left aligned grid" style="padding:10%;padding-top:25%">
+                 <h1 class="ui header" style="width:25%;font-style:bold" >DROP US A LINE</h1>
+                 <div class="ui left aligned grid" style="padding-top:25%">
                    <div class="ui centered row">
-                     <div class="seven wide column">
+                     <div class="seven wide column" style="padding-right:0">
                        <img class="logo-1 ui image" src="images/Gragory-logo.png" alt="">
                        <h4 class="ui header">RETAIL INQUIRIES<br>Richard Skulnik<br>212 750 6565<br>rskulnik@ripcony.com</h4>
                      </div>
@@ -860,13 +589,17 @@
                      </div>
                    </div>
                    <div class="basic segment" style="padding-left:10%;padding-top:20%">
-                     <button class="ui basic button black sticky">ALL DOWNLOADS</button>
+                     <a href="#" target="_blank"><button class="ui basic button black sticky">ALL DOWNLOADS</button><i class="arrow down icon"></i></a>
+                   </div>
+                   <div class="ui basic segment right aligned" style="padding-top:20%;padding-left:80%">
+                     <a href="#top"><h5 class="ui header" style="font-style:italic">Go To Top<i class="arrow up icon"></i></h5></a>
                    </div>
                  </div>
                </div>
              </div>
            </div>
          </div>
+       </div>
      </div>
     <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
