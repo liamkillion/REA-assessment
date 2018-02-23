@@ -14,5 +14,5 @@ neighborhood “tabs” are animated, expand/contract on focus, section heading 
 -NEED THE SLIDER TO ANIMATE
 facts and figures-animation tbd (resize? fade in from LtoR? fade in randomly?)
 on stack plan, rows highlight on hover, display image in grid, image is cropped at higher levels
--ROWS HIGHLIGHT, NEED TO CHANGE COLOR TO YELLOW, HIGHLIGHT IMAGE IN STACKPLAN
+-ROWS HIGHLIGHT, NEED TO CHANGE COLOR TO #E2C188, HIGHLIGHT IMAGE IN STACKPLAN
 form needs a submit button

@@ -79,6 +79,22 @@ body {
   visibility: hidden;
 }
 
+tr {
+  line-height: 2.5em;
+}
+
 tr:hover {
-  background-color: green;
+  background-color: #e2c188;
+}
+
+.table-bridge {
+  border: none;
+}
+
+button.ui.basic.button.black {
+  border-radius: 0;
+}
+
+i.arrow.down.icon {
+  color: black;
 }
