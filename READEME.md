@@ -11,5 +11,12 @@ facts and figures-animation tbd (resize? fade in from LtoR? fade in randomly?)
 on stack plan, rows highlight on hover, display image in grid, image is cropped at higher levels
 -ROWS HIGHLIGHT, NEED TO CHANGE COLOR TO #E2C188, HIGHLIGHT IMAGE IN STACKPLAN
 
-carousel http://kenwheeler.github.io/slick/
+carousel
 http://idangero.us/swiper/
+
+hide header
+http://jsfiddle.net/mariusc23/s6mLJ/31/
+
+slide out animation for Map
+http://jsfiddle.net/qm66x51c/147/
+http://jsfiddle.net/J3FTN/
