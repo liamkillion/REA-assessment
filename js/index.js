@@ -10,6 +10,7 @@ var mySwiper = new Swiper(".swiper-container", {
   speed: 600,
 })
 
+// accordian settup
 $(document).ready(function() {
   $(".ui.accordion").accordion();
 });
@@ -36,7 +37,7 @@ $('.ui.right.sidebar')
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = $('#top-bar').outerHeight();
+var navbarHeight = $('div.ui.top.fixed.small.menu.nav-down').outerHeight();
 
 $(window).scroll(function(event) {
   didScroll = true;
@@ -60,19 +61,32 @@ function hasScrolled() {
   // This is necessary so you never see what is "behind" the navbar.
   if (st > lastScrollTop && st > navbarHeight) {
     // Scroll Down
-    $('#top-bar').removeClass('nav-down').addClass('nav-up');
-    $('#bar-logo').removeClass('logo-down').addClass('logo-up');
+    $('div.ui.top.fixed.small.menu.nav-down').removeClass('nav-down').addClass('nav-up');
+    $('img.logo-down').removeClass('logo-down').addClass('logo-up');
   } else {
     // Scroll Up
     if (st + $(window).height() < $(document).height()) {
-      $('#top-bar').removeClass('nav-up').addClass('nav-down')
-      $('#bar-logo').removeClass('logo-up').addClass('logo-down')
+      $('div.ui.top.fixed.small.menu.nav-up').removeClass('nav-up').addClass('nav-down')
+      $('img.logo-up').removeClass('logo-up').addClass('logo-down')
     }
   }
 
   lastScrollTop = st;
 }
 
+$("div.ui.top.fixed.small.menu").hover(function() {
+  $(this).removeClass('nav-up').addClass('nav-down')
+}, function() {
+  $(this).removeClass('nav-down').addClass('nav-up')
+});
+
+$("div.ui.top.fixed.small.menu").hover(function() {
+  $('img.logo').removeClass('logo-up').addClass('logo-down')
+}, function() {
+  $('img.logo').removeClass('logo-down').addClass('logo-up')
+});
+
+// fade in images
 function showImages(el) {
   var windowHeight = jQuery(window).height();
   $(el).each(function() {
